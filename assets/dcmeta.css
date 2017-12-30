@@ -1,0 +1,111 @@
+.dcmetatable table, .dcmetatable td, .dcmetatable tr {
+	    border-collapse: collapse;
+}
+
+
+table.dcmetatable  {
+    border: 1px solid black;
+    padding: 20px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.dcmetatable caption {
+	text-align: center;
+	font-weight: bold;
+	font-size: 200%;
+    margin: 20px;
+}
+
+
+.dcmetatable th { 
+  border-bottom: black solid 2px; 
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+	font-weight: bold;
+	font-size: 150%;
+	padding: 10px;
+}
+
+
+.dcmetatable td {
+	padding: 10px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+
+.dcmetatable tbody tr:nth-child(odd) {
+   background-color: #ccc;
+}
+
+
+.dcmetatable tbody tr:nth-child(even) {
+   background-color: #eee;
+}
+
+
+h2.dcmetatable  {
+}
+
+
+.dcpathmenu a {
+	}
+
+.dcpathnomenu a {
+	color: #23b435;
+	}
+
+
+.dcmetainput_short input {
+    width: 20em;
+}
+
+
+
+.dcmetainput_longarea textarea {
+    height: 4em;
+    width: 40em;
+}
+
+.dcmetainput_shortarea textarea {
+    height: 4em;
+    width: 20em;
+}
+
+
+.dcmetacolm_menulink {
+	/*word-break: break-all;*/
+}
+
+td.dcmi_toolong {
+	background-color: #e9abbd;
+}
+
+.dcmetainfo {
+		padding: 10px;
+		margin: 10px;
+		border: 2px solid #22ff22;
+		
+}
+
+
+span.character-counter-limit-exceeded {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+textarea.character-counter-limit-exceeded {
+	background-color: #e69b9d;
+}
+
+div.character-counter-main-wrapper {
+	padding-top: 0px;
+	margin-top: 0px;
+	text-align: right;
+}
+
+.dcmetainput_longarea textarea {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}

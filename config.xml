@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+
+
+
+	<fieldset
+		name="dcmetaoptions"
+		label="DC Meta Options"
+		description="Options for the dc meta component."
+	>
+
+		<field
+			name="hide_menus"
+			type="radio"
+			default="1"
+			label="Hide menu items for articles and other links that should not have meta info"
+			description="Enable this option to hide menu items that should probably not have meta info because the meta info should be in article or because its an external url, etc."
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+	</fieldset>
+
+
+
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+	>
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			class="inputbox"
+			validate="rules"
+			filter="rules"
+			component="com_dcmeta"
+			section="component"
+		/>
+	</fieldset>
+
+
+
+
+</config>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component"
+           version="3.2.0"
+           method="upgrade">
+
+	<name>dcmeta</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>Nov 2017</creationDate>
+	<author>mouser</author>
+	<authorEmail>mouser@donationcoder.com</authorEmail>
+	<authorUrl>http://www.donationcoder.com</authorUrl>
+	<copyright>2017 DonationCoder.com</copyright>
+	<license>TBD</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.0</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>DcMeta component - quickly see the meta descriptions/keywords for all articles with links to edit</description>
+
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu link='index.php?option=com_dcmeta'>COM_DCMETA_MENU</menu>
+		<!-- Administration Main File Copy Section -->
+		<files>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>dcmeta.php</filename>
+			<filename>index.html</filename>
+			<folder>assets</folder>
+			<folder>helpers</folder>
+			<folder>language</folder>
+			<folder>views</folder>
+		</files>
+			
+	</administration>
+
+</extension>
